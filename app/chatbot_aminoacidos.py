@@ -1,22 +1,24 @@
 import streamlit as st
+import os
+import openai
 from pptx import Presentation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import os
 
-st.title("🤖 ChatBot de Bioquímica – Aminoácidos")
-st.success("👩‍⚕️ Bienvenido/a al ChatBot de Bioquímica.\n\nEste asistente responde preguntas sobre aminoácidos usando:\n- Las diapositivas de clase\n- Un capítulo del libro\n- El video de la Dra. Susana González Chávez")
+# Configurar clave de API desde secretos de Streamlit
+openai.api_key = st.secrets["OPENAI_API_KEY"]
+
+st.title("🤖 ChatBot de Bioquímica – GPT-4 Edition")
+st.success("Este chatbot usa GPT-4 para responder preguntas sobre aminoácidos con base en tus materiales de clase.")
 
 # Archivos fuente
 pptx_path = "clase_001_aminoacidos.pptx"
 txt_path = "capitulo_aminoacidos_mckee_LIMPIO.txt"
 
 # Video relacionado
-videos = {
-    "clase_001_aminoacidos.pptx": "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
-}
+video_url = "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
 
-# Función para extraer texto del pptx
+# Extraer texto de pptx
 def extract_text_from_pptx(file_path):
     prs = Presentation(file_path)
     slides_text = []
@@ -28,42 +30,52 @@ def extract_text_from_pptx(file_path):
         slides_text.append(text.strip())
     return slides_text
 
-# Función para extraer texto del txt (capítulo del libro)
+# Extraer bloques del archivo txt
 def extract_text_from_txt(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
-    # Dividir en párrafos para mejor análisis
-    paragraphs = [p.strip() for p in content.split("\n") if len(p.strip()) > 50]
-    return paragraphs
+    return [p.strip() for p in content.split("\n\n") if len(p.strip()) > 60]
 
 # Cargar contenido
-try:
-    slides = extract_text_from_pptx(pptx_path)
-except Exception as e:
-    st.error(f"Error al leer el archivo de diapositivas: {e}")
-    st.stop()
-
-try:
-    chapter = extract_text_from_txt(txt_path)
-except Exception as e:
-    st.error(f"Error al leer el archivo del capítulo: {e}")
-    st.stop()
+slides = extract_text_from_pptx(pptx_path)
+chapter = extract_text_from_txt(txt_path)
+all_docs = slides + chapter
 
 # Entrada del usuario
 query = st.text_input("Escribe tu pregunta sobre aminoácidos:")
 
 if query:
-    # Combinar fuentes
-    all_docs = slides + chapter
+    # Vectorizar pregunta y documentos
     vectorizer = TfidfVectorizer().fit_transform([query] + all_docs)
     similarity = cosine_similarity(vectorizer[0:1], vectorizer[1:])
-    best_idx = similarity.argmax()
+    top_indices = similarity[0].argsort()[-3:][::-1]  # Los 3 más relevantes
 
-    st.subheader("📖 Respuesta basada en tus materiales:")
-    st.write(all_docs[best_idx])
+    # Combinar fragmentos relevantes como contexto
+    context = "\n\n".join([all_docs[i] for i in top_indices])
 
-    # Mostrar video si existe
-    video_url = videos.get(pptx_path)
-    if video_url:
+    # Construir mensaje para GPT-4
+    prompt = f"""
+Eres un asistente de bioquímica que responde con claridad, precisión y lenguaje profesional, usando solo el contenido proporcionado.
+Responde a la siguiente pregunta usando los fragmentos de clase como contexto. Si no está en el contexto, responde que no se encuentra en los materiales.
+
+PREGUNTA: {query}
+
+MATERIALES DE CLASE:
+{context}
+
+RESPUESTA:
+"""
+
+    with st.spinner("Consultando a GPT-4..."):
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=600
+        )
+
+        st.subheader("📖 Respuesta elaborada por GPT-4:")
+        st.write(response.choices[0].message.content)
+
         st.markdown("🎥 **También puedes ver la explicación en video:**")
         st.video(video_url)
