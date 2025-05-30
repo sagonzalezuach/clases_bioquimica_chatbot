@@ -86,11 +86,29 @@ all_docs = slides + chapter
 query = st.text_input("🎓 Escribe tu pregunta sobre aminoácidos:")
 
 if query:
+    # Sugerencias por minuto
+    temas_video = {
+        "estructura general": "8:33",
+        "tipos de aminoácidos": "11:38",
+        "aminoácidos polares": "31:11",
+        "aminoácidos apolares": "21:07",
+        "aminoácidos ácidos": "35:33"
+    }
+
+    query_lower = query.lower()
+    tema_encontrado = None
+    for tema, minuto in temas_video.items():
+        if tema in query_lower:
+            tema_encontrado = (tema, minuto)
+            break
+
+    # Vectorización y búsqueda de contexto
     vectorizer = TfidfVectorizer().fit_transform([query] + all_docs)
     similarity = cosine_similarity(vectorizer[0:1], vectorizer[1:])
     top_indices = similarity[0].argsort()[-3:][::-1]
     context = "\n\n".join([all_docs[i] for i in top_indices])
 
+    # Construir prompt
     prompt = f"""
 Eres un asistente de bioquímica de la Facultad de Medicina de la UACH.
 Responde solo usando los siguientes materiales proporcionados por la Dra. Susana González Chávez.
@@ -116,8 +134,12 @@ RESPUESTA:
         st.write(response.choices[0].message.content)
         st.caption("📚 Esta respuesta se generó con base en tus presentaciones, lectura y video. No se utilizó información externa.")
 
+        if tema_encontrado:
+            st.markdown(f"🎯 **Puedes encontrar la explicación de *{tema_encontrado[0]}* en el minuto {tema_encontrado[1]} del video.**")
+
         st.markdown("**🎥 Explicación en video:**")
         st.video(video_url)
+
 
 # Pie de página
 st.markdown("""
