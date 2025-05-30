@@ -32,7 +32,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Encabezado con logo local ---
-st.image("../logo uach.png", width=100)
+st.image("logo uach.png", width=100)
 
 # --- Banner decorativo ---
 st.markdown("""
@@ -44,9 +44,9 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Archivos fuente
-pptx_path = "../clase_001_aminoacidos.pptx"
-txt_path = "../capitulo_aminoacidos_mckee_LIMPIO.txt"
+# Archivos fuente (ajustados para estar en raíz del repositorio)
+pptx_path = "clase_001_aminoacidos.pptx"
+txt_path = "capitulo_aminoacidos_mckee_LIMPIO.txt"
 video_url = "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
 
 # Funciones para cargar contenido
