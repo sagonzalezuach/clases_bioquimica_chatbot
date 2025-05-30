@@ -47,7 +47,16 @@ st.markdown("""
 # --- Archivos fuente ---
 pptx_path = "clase_001_aminoacidos.pptx"
 txt_path = "capitulo_aminoacidos_mckee_LIMPIO.txt"
-video_url = "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
+video_url_base = "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
+
+# --- Temas con minutos del video ---
+temas_video = {
+    "estructura general": "8:33",
+    "tipos de aminoácidos": "11:38",
+    "aminoácidos polares": "31:11",
+    "aminoácidos apolares": "21:07",
+    "aminoácidos ácidos": "35:33"
+}
 
 # --- Funciones para extraer contenido ---
 def extract_text_from_pptx(file_path):
@@ -58,21 +67,12 @@ def extract_text_from_txt(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return [p.strip() for p in f.read().split("\n\n") if len(p.strip()) > 60]
 
-# Cargar contenido
+# --- Cargar documentos ---
 slides = extract_text_from_pptx(pptx_path)
 chapter = extract_text_from_txt(txt_path)
 all_docs = slides + chapter
 
-# --- Diccionario de temas con minuto del video ---
-temas_video = {
-    "estructura general": "8:33",
-    "tipos de aminoácidos": "11:38",
-    "aminoácidos polares": "31:11",
-    "aminoácidos apolares": "21:07",
-    "aminoácidos ácidos": "35:33"
-}
-
-# --- Interfaz de usuario ---
+# --- Entrada del usuario ---
 query = st.text_input("🎓 Escribe tu pregunta sobre aminoácidos:")
 
 if query:
@@ -84,7 +84,7 @@ if query:
             tema_encontrado = (tema, minuto)
             break
 
-    # Buscar contexto más similar
+    # Vectorización y búsqueda del contexto más similar
     vectorizer = TfidfVectorizer().fit_transform([query] + all_docs)
     similarity = cosine_similarity(vectorizer[0:1], vectorizer[1:])
     top_indices = similarity[0].argsort()[-3:][::-1]
@@ -104,7 +104,7 @@ MATERIALES:
 RESPUESTA:
 """
 
-    # Llamada a OpenAI
+    # Llamada a OpenAI GPT-4
     with st.spinner("🤖 Consultando a GPT-4..."):
         response = client.chat.completions.create(
             model="gpt-4",
@@ -118,9 +118,16 @@ RESPUESTA:
     st.write(response.choices[0].message.content)
     st.caption("📚 Esta respuesta se generó con base en tus presentaciones, lectura y video. No se utilizó información externa.")
 
-    # Sugerencia de minuto del video
+    # Mostrar sugerencia del minuto del video
     if tema_encontrado:
         st.markdown(f"🎯 **Puedes encontrar la explicación de *{tema_encontrado[0]}* en el minuto {tema_encontrado[1]} del video.**")
+
+        # Convertir mm:ss a segundos
+        minutos, segundos = map(int, tema_encontrado[1].split(":"))
+        tiempo_segundos = minutos * 60 + segundos
+        video_url = f"{video_url_base}&start={tiempo_segundos}"
+    else:
+        video_url = video_url_base
 
     # Mostrar video
     st.markdown("**🎥 Explicación en video:**")
