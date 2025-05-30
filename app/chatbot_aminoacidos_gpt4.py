@@ -76,6 +76,8 @@ RESPUESTA:
 
         st.subheader("📖 Respuesta elaborada por GPT-4:")
         st.write(response.choices[0].message.content)
+        st.caption("📚 Esta respuesta fue generada a partir de tus diapositivas, tu capítulo de libro y el video de clase. No se usó información externa.")
+
 
         st.markdown("🎥 **También puedes ver la explicación en video:**")
         st.video(video_url)
