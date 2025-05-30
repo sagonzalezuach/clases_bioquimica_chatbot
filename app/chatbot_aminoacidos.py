@@ -46,7 +46,7 @@ if query:
     st.write(slides[best_idx])
 
     # Mostrar el video si está disponible
-    video_url = videos.get(pptx_file)
+   video_url = videos.get("clase_001_aminoacidos.pptx")
     if video_url:
         st.markdown("🎥 **Mira la explicación en video:**")
         st.video(video_url)
