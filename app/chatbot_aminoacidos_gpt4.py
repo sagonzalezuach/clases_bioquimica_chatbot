@@ -1,12 +1,12 @@
 import streamlit as st
 import os
-import openai
+from openai import OpenAI
 from pptx import Presentation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Configurar clave de API desde secretos de Streamlit
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+# Inicializar cliente OpenAI con la API Key de los secretos de Streamlit
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.title("🤖 ChatBot de Bioquímica – GPT-4 Edition")
 st.success("Este chatbot usa GPT-4 para responder preguntas sobre aminoácidos con base en tus materiales de clase.")
@@ -18,7 +18,7 @@ txt_path = "capitulo_aminoacidos_mckee_LIMPIO.txt"
 # Video relacionado
 video_url = "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
 
-# Extraer texto de pptx
+# Extraer texto del archivo pptx
 def extract_text_from_pptx(file_path):
     prs = Presentation(file_path)
     slides_text = []
@@ -45,29 +45,29 @@ all_docs = slides + chapter
 query = st.text_input("Escribe tu pregunta sobre aminoácidos:")
 
 if query:
-    # Vectorizar pregunta y documentos
+    # Buscar los fragmentos más relevantes con TF-IDF
     vectorizer = TfidfVectorizer().fit_transform([query] + all_docs)
     similarity = cosine_similarity(vectorizer[0:1], vectorizer[1:])
-    top_indices = similarity[0].argsort()[-3:][::-1]  # Los 3 más relevantes
+    top_indices = similarity[0].argsort()[-3:][::-1]  # Top 3
 
-    # Combinar fragmentos relevantes como contexto
+    # Combinar fragmentos como contexto para GPT-4
     context = "\n\n".join([all_docs[i] for i in top_indices])
 
-    # Construir mensaje para GPT-4
+    # Construir el prompt
     prompt = f"""
-Eres un asistente de bioquímica que responde con claridad, precisión y lenguaje profesional, usando solo el contenido proporcionado.
-Responde a la siguiente pregunta usando los fragmentos de clase como contexto. Si no está en el contexto, responde que no se encuentra en los materiales.
+Eres un asistente de bioquímica que responde preguntas con claridad, precisión y lenguaje profesional,
+usando solo el contenido proporcionado. No inventes información.
 
 PREGUNTA: {query}
 
-MATERIALES DE CLASE:
+MATERIALES:
 {context}
 
 RESPUESTA:
 """
 
     with st.spinner("Consultando a GPT-4..."):
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-4",
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
