@@ -37,7 +37,11 @@ st.markdown(
     '<img src="https://i.imgur.com/lQz0M0Y.png" width="100" style="margin-bottom: 1rem;">',
     unsafe_allow_html=True
 )
-​
+​st.markdown("""
+**Facultad de Medicina y Ciencias Biomédicas**  
+**Universidad Autónoma de Chihuahua**  
+Este asistente responde preguntas sobre aminoácidos usando tus propias clases: presentaciones, lectura y video.
+""")
 st.title("ChatBot de Bioquímica – GPT-4 Edition")
 st.markdown("""
 **Facultad de Medicina y Ciencias Biomédicas**  
