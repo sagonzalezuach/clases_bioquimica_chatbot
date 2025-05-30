@@ -8,7 +8,6 @@ st.title("🤖 ChatBot de Bioquímica – Aminoácidos")
 st.write("Haz preguntas sobre aminoácidos y el chatbot responderá usando tus diapositivas y video de clase.")
 
 # Ruta al archivo .pptx
-pptx_file = "clase_01_aminoacidos.pptx"
 pptx_path = "clase_01_aminoacidos.pptx"
 
 # Enlace del video de YouTube
