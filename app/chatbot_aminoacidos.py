@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import os
 
 st.title("🤖 ChatBot de Bioquímica – Aminoácidos")
-st.write("Haz preguntas sobre aminoácidos y el chatbot responderá usando tus diapositivas y video de clase.")
+st.success("👩‍⚕️ Bienvenido/a al ChatBot de Bioquímica.\n\nEste asistente responde preguntas sobre aminoácidos usando exclusivamente las diapositivas y el video de clase de la Dra. Susana González Chávez. Escribe una pregunta abajo para comenzar.")
 
 # Ruta al archivo .pptx
 pptx_path = "clase_001_aminoacidos.pptx"
@@ -41,12 +41,12 @@ if query:
     vectorizer = TfidfVectorizer().fit_transform([query] + slides)
     similarity = cosine_similarity(vectorizer[0:1], vectorizer[1:])
     best_idx = similarity.argmax()
-    
+
     st.subheader("📖 Respuesta basada en tu clase:")
     st.write(slides[best_idx])
 
     # Mostrar el video si está disponible
-   video_url = videos.get(pptx_path)
+    video_url = videos.get(pptx_path)
     if video_url:
         st.markdown("🎥 **Mira la explicación en video:**")
         st.video(video_url)
