@@ -8,20 +8,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Inicializar cliente OpenAI
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-# --- Personalización visual ---
+# --- Configuración visual ---
 st.set_page_config(page_title="ChatBot Bioquímica UACH", page_icon="🔖", layout="centered")
 
-# Buscar minuto relevante en temas_video
-tema_encontrado = None
-query_lower = query.lower()
-
-for tema, minuto in temas_video.items():
-    if tema in query_lower:
-        tema_encontrado = (tema, minuto)
-        break
-
-if tema_encontrado:
-    st.markdown(f"🎯 **Puedes encontrar la explicación de *{tema_encontrado[0]}* en el minuto {tema_encontrado[1]} del video.**")
 st.markdown("""
     <style>
     body {
@@ -42,10 +31,10 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Encabezado con logo local ---
+# --- Logo local ---
 st.image("logo uach.png", width=100)
 
-# --- Banner decorativo ---
+# --- Banner institucional ---
 st.markdown("""
 <div style="background-color:#ffc0cb;padding:20px;border-radius:10px;text-align:center">
     <h1 style="color:#880e4f;">ChatBot de Bioquímica</h1>
@@ -55,21 +44,12 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Archivos fuente (ajustados para estar en raíz del repositorio)
+# --- Archivos fuente ---
 pptx_path = "clase_001_aminoacidos.pptx"
 txt_path = "capitulo_aminoacidos_mckee_LIMPIO.txt"
 video_url = "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
-# Tabla de temas y minutos del video
-temas_video = {
-    "estructura general": "8:33",
-    "tipos de aminoácidos": "11:38",
-    "aminoácidos polares": "31:11",
-    "aminoácidos apolares": "21:07",
-    "aminoácidos ácidos": "35:33"
-}
 
-
-# Funciones para cargar contenido
+# --- Funciones para extraer contenido ---
 def extract_text_from_pptx(file_path):
     prs = Presentation(file_path)
     return [" ".join(shape.text for shape in slide.shapes if hasattr(shape, "text")).strip() for slide in prs.slides]
@@ -78,23 +58,25 @@ def extract_text_from_txt(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return [p.strip() for p in f.read().split("\n\n") if len(p.strip()) > 60]
 
+# Cargar contenido
 slides = extract_text_from_pptx(pptx_path)
 chapter = extract_text_from_txt(txt_path)
 all_docs = slides + chapter
 
-# Entrada del usuario
+# --- Diccionario de temas con minuto del video ---
+temas_video = {
+    "estructura general": "8:33",
+    "tipos de aminoácidos": "11:38",
+    "aminoácidos polares": "31:11",
+    "aminoácidos apolares": "21:07",
+    "aminoácidos ácidos": "35:33"
+}
+
+# --- Interfaz de usuario ---
 query = st.text_input("🎓 Escribe tu pregunta sobre aminoácidos:")
 
 if query:
-    # Sugerencias por minuto
-    temas_video = {
-        "estructura general": "8:33",
-        "tipos de aminoácidos": "11:38",
-        "aminoácidos polares": "31:11",
-        "aminoácidos apolares": "21:07",
-        "aminoácidos ácidos": "35:33"
-    }
-
+    # Buscar si hay coincidencia con temas del video
     query_lower = query.lower()
     tema_encontrado = None
     for tema, minuto in temas_video.items():
@@ -102,13 +84,13 @@ if query:
             tema_encontrado = (tema, minuto)
             break
 
-    # Vectorización y búsqueda de contexto
+    # Buscar contexto más similar
     vectorizer = TfidfVectorizer().fit_transform([query] + all_docs)
     similarity = cosine_similarity(vectorizer[0:1], vectorizer[1:])
     top_indices = similarity[0].argsort()[-3:][::-1]
     context = "\n\n".join([all_docs[i] for i in top_indices])
 
-    # Construir prompt
+    # Crear prompt
     prompt = f"""
 Eres un asistente de bioquímica de la Facultad de Medicina de la UACH.
 Responde solo usando los siguientes materiales proporcionados por la Dra. Susana González Chávez.
@@ -122,6 +104,7 @@ MATERIALES:
 RESPUESTA:
 """
 
+    # Llamada a OpenAI
     with st.spinner("🤖 Consultando a GPT-4..."):
         response = client.chat.completions.create(
             model="gpt-4",
@@ -130,18 +113,20 @@ RESPUESTA:
             max_tokens=600
         )
 
-        st.subheader(":open_book: Respuesta elaborada con base en tus clases:")
-        st.write(response.choices[0].message.content)
-        st.caption("📚 Esta respuesta se generó con base en tus presentaciones, lectura y video. No se utilizó información externa.")
+    # Mostrar respuesta
+    st.subheader(":open_book: Respuesta elaborada con base en tus clases:")
+    st.write(response.choices[0].message.content)
+    st.caption("📚 Esta respuesta se generó con base en tus presentaciones, lectura y video. No se utilizó información externa.")
 
-        if tema_encontrado:
-            st.markdown(f"🎯 **Puedes encontrar la explicación de *{tema_encontrado[0]}* en el minuto {tema_encontrado[1]} del video.**")
+    # Sugerencia de minuto del video
+    if tema_encontrado:
+        st.markdown(f"🎯 **Puedes encontrar la explicación de *{tema_encontrado[0]}* en el minuto {tema_encontrado[1]} del video.**")
 
-        st.markdown("**🎥 Explicación en video:**")
-        st.video(video_url)
+    # Mostrar video
+    st.markdown("**🎥 Explicación en video:**")
+    st.video(video_url)
 
-
-# Pie de página
+# --- Pie de página ---
 st.markdown("""
 ---
 **Desarrollado por la Dra. Susana González Chávez**  
