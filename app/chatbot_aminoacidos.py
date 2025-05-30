@@ -9,7 +9,7 @@ st.write("Haz preguntas sobre aminoácidos y el chatbot responderá usando tus d
 
 # Ruta al archivo .pptx
 pptx_file = "clase_01_aminoacidos.pptx"
-pptx_path = os.path.join("clases", pptx_file)
+pptx_path = "clase_01_aminoacidos.pptx"
 
 # Enlace del video de YouTube
 videos = {
