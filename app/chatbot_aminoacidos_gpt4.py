@@ -31,18 +31,18 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Encabezado con logo incrustado ---
-st.markdown(
-    '<img src="https://i.imgur.com/lQz0M0Y.png" width="100" style="margin-bottom: 1rem;">',
-    unsafe_allow_html=True
-)
+# --- Encabezado con logo local ---
+st.image("logo uach.png", width=100)
 
-st.title("ChatBot de Bioquímica – GPT-4 Edition")
+# --- Banner decorativo ---
 st.markdown("""
-**Facultad de Medicina y Ciencias Biomédicas**  
-**Universidad Autónoma de Chihuahua**  
-Este asistente responde preguntas sobre aminoácidos usando tus propias clases: presentaciones, lectura y video.
-""")
+<div style="background-color:#ffc0cb;padding:20px;border-radius:10px;text-align:center">
+    <h1 style="color:#880e4f;">ChatBot de Bioquímica – GPT-4 Edition</h1>
+    <h3 style="color:#6a1b9a;">Facultad de Medicina y Ciencias Biomédicas</h3>
+    <h4 style="color:#6a1b9a;">Universidad Autónoma de Chihuahua</h4>
+    <p style="color:#4a148c;">Este asistente responde preguntas sobre aminoácidos usando tus propias clases: presentaciones, lectura y video.</p>
+</div>
+""", unsafe_allow_html=True)
 
 # Archivos fuente
 pptx_path = "clase_001_aminoacidos.pptx"
