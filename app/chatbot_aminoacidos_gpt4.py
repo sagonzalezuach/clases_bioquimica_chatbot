@@ -37,7 +37,7 @@ st.image("logo uach.png", width=100)
 # --- Banner decorativo ---
 st.markdown("""
 <div style="background-color:#ffc0cb;padding:20px;border-radius:10px;text-align:center">
-    <h1 style="color:#880e4f;">ChatBot de Bioquímica – GPT-4 Edition</h1>
+    <h1 style="color:#880e4f;">ChatBot de Bioquímica</h1>
     <h3 style="color:#6a1b9a;">Facultad de Medicina y Ciencias Biomédicas</h3>
     <h4 style="color:#6a1b9a;">Universidad Autónoma de Chihuahua</h4>
     <p style="color:#4a148c;">Este asistente responde preguntas sobre aminoácidos usando tus propias clases: presentaciones, lectura y video.</p>
