@@ -11,7 +11,6 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 # --- Personalización visual ---
 st.set_page_config(page_title="ChatBot Bioquímica UACH", page_icon="🔖", layout="centered")
 
-# Estilo CSS en tonos rosas
 st.markdown("""
     <style>
     body {
@@ -32,16 +31,12 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Encabezado ---
+# --- Encabezado con logo incrustado ---
 st.markdown(
     '<img src="https://i.imgur.com/lQz0M0Y.png" width="100" style="margin-bottom: 1rem;">',
     unsafe_allow_html=True
 )
-​st.markdown("""
-**Facultad de Medicina y Ciencias Biomédicas**  
-**Universidad Autónoma de Chihuahua**  
-Este asistente responde preguntas sobre aminoácidos usando tus propias clases: presentaciones, lectura y video.
-""")
+
 st.title("ChatBot de Bioquímica – GPT-4 Edition")
 st.markdown("""
 **Facultad de Medicina y Ciencias Biomédicas**  
