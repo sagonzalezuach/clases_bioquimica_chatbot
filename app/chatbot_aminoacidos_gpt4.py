@@ -11,6 +11,17 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 # --- Personalización visual ---
 st.set_page_config(page_title="ChatBot Bioquímica UACH", page_icon="🔖", layout="centered")
 
+# Buscar minuto relevante en temas_video
+tema_encontrado = None
+query_lower = query.lower()
+
+for tema, minuto in temas_video.items():
+    if tema in query_lower:
+        tema_encontrado = (tema, minuto)
+        break
+
+if tema_encontrado:
+    st.markdown(f"🎯 **Puedes encontrar la explicación de *{tema_encontrado[0]}* en el minuto {tema_encontrado[1]} del video.**")
 st.markdown("""
     <style>
     body {
@@ -48,6 +59,15 @@ st.markdown("""
 pptx_path = "clase_001_aminoacidos.pptx"
 txt_path = "capitulo_aminoacidos_mckee_LIMPIO.txt"
 video_url = "https://youtu.be/6-rvZqSTANo?si=WfT34ODacliTwOhz"
+# Tabla de temas y minutos del video
+temas_video = {
+    "estructura general": "8:33",
+    "tipos de aminoácidos": "11:38",
+    "aminoácidos polares": "31:11",
+    "aminoácidos apolares": "21:07",
+    "aminoácidos ácidos": "35:33"
+}
+
 
 # Funciones para cargar contenido
 def extract_text_from_pptx(file_path):
