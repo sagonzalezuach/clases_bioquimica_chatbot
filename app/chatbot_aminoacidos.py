@@ -9,7 +9,7 @@ st.success("👩‍⚕️ Bienvenido/a al ChatBot de Bioquímica.\n\nEste asiste
 
 # Archivos fuente
 pptx_path = "clase_001_aminoacidos.pptx"
-txt_path = "capitulo_aminoacidos_mckee.txt"
+txt_path = "capitulo_aminoacidos_mckee_LIMPIO.txt"
 
 # Video relacionado
 videos = {
