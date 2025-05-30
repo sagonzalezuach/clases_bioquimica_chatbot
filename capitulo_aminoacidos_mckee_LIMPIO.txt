@@ -1,0 +1,230 @@
+CAPÍTULO  109 5 Una telaraña construida con ﬁ  bra  de seda.  La secuencia de aminoácidos de  la proteína de la seda de araña y el proceso de  giro de la ﬁ bra de la seda de araña se combinan  para formar el hilo de la araña, uno de los  materiales más fuertes del planeta. Aminoácidos, péptidos  y proteínas ESQUEMA 5.1 AMINOÁCIDOS Clases de aminoácidos Aminoácidos con actividad biológica Aminoácidos modiﬁ  cados en las  proteínas Estereoisómeros de los aminoácidos Titulación de los aminoácidos Reacciones de los aminoácidos 5.2 PÉPTIDOS 5.3 PROTEÍNAS Estructura de las proteínas El problema del plegamiento Proteínas ﬁ  brosas  Proteínas globulares 5.4 Máquinas moleculares Proteínas motoras B IOQUÍMICA   EN   PERSPECTIVA Seda de araña y biomimética M ÉTODOS   BIOQUÍMICOS Tecnología de proteínas 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 0 9 05 Chapter 05_McKee_5R.indd   109 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+110   CAPÍTULO5    Aminoácidos, péptidos y proteínas Sinopsis LAS PROTEÍNAS SON HERRAMIENTAS MOLECULARES QUE REALIZAN UNA SORPRENDENTE VARIEDAD DE FUNCIONES. ADEMÁS DE SERVIR COMO MATERIALES  estructurales en todos los organismos vivos (p. ej., actina y miosina en las células musculares animales) las proteínas participan en funciones tan diversas como  la catálisis, la regulación metabólica, el transporte y la defensa. Las proteínas están  compuestas de uno o más polipéptidos, polímeros no rami  cados de 20 aminoácidos  distintos. Los genomas de la mayoría de los organismos especi  can las secuencias  de aminoácidos de miles o decenas de miles de proteínas. L as proteínas son un grupo diverso de  macromoléculas (  g. 5.1). Esta diversidad está directamente relacionada  con las posibilidades de combinación de  cada monómero de los 20 aminoácidos.  En teoría, los aminoácidos pueden unirse  para formar moléculas proteicas de cualquier tamaño o secuencia imaginables.  Considérese por ejemplo una proteína hipotética compuesta por 100 aminoácidos.  El número posible total de combinaciones  de tal molécula es la cantidad astronómica de 20 100 . Sin embargo, de los trillones  de secuencias proteínicas posibles, sólo  una pequeña fracción (aproximadamente no más de dos millones) es producida  realmente por los seres vivos. Una razón  importante de esta notable discrepancia es  el complejo conjunto de propiedades estructurales y funcionales de las proteínas  naturales, que han surgido y evolucionado  durante billones de años en respuesta a la  presión selectiva. Entre dichas propiedades se encuentran (1) las características  estructurales que hacen del plegamiento  proteínico un proceso relativamente rápido y exitoso, (2) la presencia de sitios de  unión que son especí  cos para una, o un  grupo pequeño de moléculas, (3) un balance apropiado entre   exibilidad y rigidez  estructurales, de modo que se mantenga el  funcionamiento, (4) una estructura super  cial adecuada para el ambiente inmediato de una proteína (p. ej., hidrófobo en las  membranas e hidró  lo en el citoplasma)  y (5) la vulnerabilidad de las proteínas a  las reacciones de degradación cuando se  dañan o dejan de ser útiles. Las proteínas pueden distinguirse en base a su número de aminoácidos (llamados  residuos de aminoácidos ),   a su composición global de grupos aminoacilo, y a la  secuencia de éstos. En la   gura 5.1 se presentan ejemplos selectos de la diversidad de  las proteínas. Las moléculas con pesos moleculares que van desde varios miles hasta  varios millones de daltons (Da) se denominan  polipéptidos .   Aquellas con pesos moFIGURA 5.1 Diversidad proteínica Las proteínas se presentan en una diversidad enorme de tamaños y formas. Insulina  Quimotr ipsina Citocromo c Desoxirr ibonucleasa Por ina Mioglobina Lisozima Catalasa Hemoglobina Proteína transpor tadora  de fosfato (HPr) Colágeno Calmodulina Aspar tato  transcarbamilasa 5 nm Alcohol  deshidrogenasa 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 0 05 Chapter 05_McKee_5R.indd   110 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+5.1 Aminoácidos    111 leculares bajos, que constan de menos de 50 aminoácidos, se denominan  péptidos .  El término  proteína  describe especí  camente las moléculas con un contenido de más  de 50 aminoácidos. Cada proteína consta de una o de varias cadenas polipeptídicas. Este capítulo comienza con una revisión de las estructuras y de las propiedades  químicas de los aminoácidos. Después se describen las características estructurales y  funcionales de los péptidos y de las proteínas y el proceso de plegamiento proteínico.
+
+Se hace énfasis a lo largo del capítulo en la íntima relación que hay entre la estructura
+
+y la función de los polipéptidos. En el capítulo 6 se discute el funcionamiento de las
+
+enzimas, un grupo especialmente importante de las proteínas. En el capítulo 19 se
+
+describe la síntesis de las proteínas. 5.1 AMIN OÁCIDOS La hidrólisis de cada polipéptido genera un conjunto de aminoácidos, que se conoce
+
+como  composición de aminoácidos  de la molécula. En la   gura 5.2 se muestran las  estructuras de los 20 aminoácidos que se encuentran con regularidad en las proteínas. Estos aminoácidos se denominan  estándar.  En el cuadro 5.1 se enumeran las abreviaturas de los aminoácidos estándar. Obsérvese que 19 de ellos tienen la misma
+
+estructura general (  g. 5.3). Estas moléculas contienen un átomo de carbono central  (el carbono   ) al que están unidos un grupo amino, un grupo carboxilo, un átomo de  hidrógeno y un grupo R (cadena lateral). La excepción, la prolina, di  ere de los otros  aminoácidos estándar en que su grupo amino es secundario, formado por un anillo
+
+cerrado entre el grupo R y el nitrógeno del grupo amino. La prolina con  ere rigidez  a la cadena peptídica debido a que no es posible la rotación alrededor del carbono   .  Esta característica estructural tiene implicaciones signi  cativas en la estructura y, por  lo tanto, en la función de las proteínas con un contenido elevado de prolina. Los aminoácidos  no estándar  son residuos de aminoácidos que se han modi  cado  químicamente después de haberse incorporado a un polipéptido o los aminoácidos
+
+que se encuentran en los seres vivos pero que no se encuentran en las proteínas.  CUADRO 5.1  Nombres y abreviaturas de los aminoácidos estándar Aminoácido Abreviatura  de tres letras Abreviatura  de una letra Ácido aspárticoAspD Ácido glutámicoGluE
+
+Valina ValV 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 1 05 Chapter 05_McKee_5R.indd   111 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+112   CAPÍTULO5    Aminoácidos, péptidos y proteínas C R O O  NH 3 + C H FIGURA 5.3 Estructura general de los aminoácidos   FIGURA 5.2 Los aminoácidos estándar El estado de ionización de los aminoácidos de esta ilustración representa la especie dominante a pH 7. Las cadenas laterales es tán  indicadas por los recuadros sombreados. Aminoácidos apolares Glicina (Gly)Alanina (Ala)Valina (Val) Leucina (leu) Isoleucina (Ile) Fenilalanina (Phe) Triptófano (Trp) Metionina (Met) Prolina (Pro) Aminoácidos polares Serina (Ser)Treonina (Thr)Tirosina (Tyr)Asparagina (Asn)Glutamina (Gln)Cisteína (Cys) Aminoácidos ácidos Aspar tato (Asp) Glutamato (Glu) Aminoácidos básicos Lisina (Lys)Arginina (Arg)Histidina (His) 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 2 05 Chapter 05_McKee_5R.indd   112 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+5.1 Aminoácidos    113 Los aminoácidos no estándar encontrados en las proteínas casi siempre resultan de  modi caciones postraduccionales  (cambios químicos que siguen a la síntesis de proteínas). La selenocisteína, una excepción a esta regla, se describe en el capítulo 19. A pH de 7, el grupo carboxilo de un aminoácido se encuentra en su forma de base  conjugada (—COO  ) y el amino en su forma de ácido conjugado (—NH 3  ). De  este modo, cada aminoácido puede comportarse como un ácido o como una base. El
+
+término  anfótero  se utiliza para describir esta propiedad. Las moléculas neutras que  llevan un número igual de cargas positivas y de negativas se denominan  zwitteriones .   El grupo R proporciona a cada aminoácido sus propiedades únicas. Clases de aminoácidos Dado que la secuencia de aminoácidos determina la con  guración tridimensional    nal de cada proteína, sus estructuras se analizan detalladamente en las siguientes  cuatro subsecciones. Los aminoácidos se pueden clasi  car según su capacidad para  interactuar con el agua. Utilizando este criterio, pueden distinguirse cuatro clases:
+
+(1) apolares, (2) polares, (3) ácidos y (4) básicos. AMINOÁCIDOS APOLARES  Los aminoácidos apolares contienen principalmente  grupos R hidrocarbonados sin cargas positivas o negativas. Dado que interactúan
+
+poco con el agua, los aminoácidos apolares (p. ej., hidrófobos) tienen un cometido
+
+importante en el mantenimiento de la estructura tridimensional de las proteínas. En
+
+este grupo se encuentran dos tipos de hidrocarburos en las cadenas R: las aromáticas
+
+y las alifáticas. Los hidrocarburos  aromáticos  contienen estructuras cíclicas que  los constituyen en una clase de hidrocarburos insaturados con nubes electrónicas     conjugadas. El benceno es uno de los hidrocarburos aromáticos más simples (  g.  5.4). El término  alifático  se re ere a hidrocarburos no aromáticos, como el metano  y el ciclohexano. La fenilalanina y el triptófano contienen estructuras de anillo aro mático. La glicina, la alanina, la valina, la leucina, la isoleucina y la prolina poseen
+
+grupos R alifáticos. En las cadenas laterales alifáticas de la metionina hay un átomo
+
+de azufre. La metionina contiene un grupo tioéter (—S—CH 3 ) en su cadena lateral.  Su derivado, la adenosilmetionina S (SAM), es un importante metabolito que sirve
+
+como donador de metilo en numerosas reacciones bioquímicas. AMINOÁCIDOS POLARES  Dado que los aminoácidos polares poseen grupos funcionales capaces de formar enlaces (por puentes) de hidrógeno, interactúan de for ma sencilla con el agua (los aminoácidos polares se describen como “hidró  los” o  “a  nes al agua”). Pertenecen a esta categoría, la serina, la treonina, la tirosina, la  asparagina y la glutamina. La serina, la treonina y la tirosina contienen un grupo
+
+hidroxilo polar, que les permite participar en la formación de enlaces por puente de
+
+hidrógeno, un factor importante en la estructura proteínica. Los grupos hidroxilo
+
+tienen otras funciones en las proteínas. Por ejemplo, la formación del éster de fosfato
+
+de la tirosina es un mecanismo de regulación habitual.Además, los grupos —OH de
+
+la serina y de la treonina son puntos de unión para los carbohidratos. La asparagina
+
+y la glutamina son derivados amida de los aminoácidos ácidos: del ácido aspárti co y del ácido glutámico, respectivamente. Dado que el grupo funcional amida es
+
+muy polar, la capacidad de formar enlaces por puente de hidrógeno de la asparagina
+
+y de la glutamina posee un efecto signi  cativo en la estabilidad proteínica. El grupo  sulfhidrilo (—SH) de la cisteína es muy reactivo y es un componente importante de
+
+muchas enzimas.También se une con metales (p. ej., iones hierro y cobre) en las
+
+proteínas.Además, los grupos sulfhidrilo de dos moléculas de cisteína se oxidan
+
+con facilidad en el compartimento extracelular para formar un compuesto disulfuro
+
+llamado cistina. AMINOÁCIDOS ÁCIDOS  Dos aminoácidos estándar poseen cadenas laterales con  grupos carboxilo. Las cadenas laterales del ácido aspártico y del glutámico tienen
+
+carga negativa a pH   siológico, por lo que suelen llamárseles aspartato y glutamato. FIGURA 5.4 Benceno 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 3 05 Chapter 05_McKee_5R.indd   113 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+114   CAPÍTULO5    Aminoácidos, péptidos y proteínas AMINOÁCIDOS BÁSICOS  Los aminoácidos básicos possen carga positiva a pH   siológico. Por lo tanto, pueden formar enlaces iónicos con los aminoácidos ácidos. La  lisina, que tiene un grupo amino en la cadena lateral, acepta un protón del agua para
+
+formar el ácido conjugado (—NH 3  ). Cuando se oxidan y después se condensan las  cadenas laterales de las moléculas de lisina en las   bras de colágeno, un vital componente estructural de los ligamentos y de los tendones, se forman fuertes enlaces
+
+cruzados intramoleculares e intermoleculares. Debido a que el grupo guanidino de
+
+la arginina tiene un intervalo de p K a  de 11.5 a 12.5 en las proteínas, siempre está  protonado a pH   siológico y, en consecuencia, no actúa en las reacciones ácido-base.  Por otra parte, la cadena lateral imidazol de la histidina, es una base débil porque
+
+sólo se ioniza de manera parcial en un pH de 7, ya que su p K a  es cercano a 6. Su  capacidad, en condiciones   siológicas, para aceptar o donar protones como respuesta  a los pequeños cambios en el pH tiene un papel importante en la actividad catalítica
+
+de muchas enzimas. Aminoácidos con actividad biológica Además de su función principal como componentes de las proteínas, los aminoácidos
+
+poseen muchas otras funciones biológicas.   1.  Numerosos aminoácidos    o sus derivados actúan como mensajeros químicos  (  g. 5.5). Por ejemplo, la glicina, el glutamato, el ácido   -aminobutírico (GABA,  un derivado del glutamato) y la serotonina y la melatonina (derivados del triptófano) son  neurotransmisores , sustancias liberadas por una célula nerviosa  que in  uyen sobre la función de una segunda célula nerviosa o sobre una célula  muscular. La tiroxina (un derivado de la tirosina que se produce en la glándula
+
+tiroides de los animales) y el ácido indolacético (un derivado del triptófano que
+
+se encuentra en las plantas) son  hormonas , moléculas de señalización química  producidas en una célula que regulan la función de otras células.   2.  Los aminoácidos son precursores de diversas moléculas complejas que contienen  nitrógeno. Entre los ejemplos se encuentran las bases nitrogenadas que componen
+
+los nucleótidos y los ácidos nucleicos, el hemo (el grupo orgánico que contiene
+
+el hierro necesario para la actividad biológica de varias proteínas importantes) y
+
+la cloro  la (un pigmento de importancia crucial en la fotosíntesis).   3.  Numerosos aminoácidos estándar y no estándar actúan como intermediarios metabólicos. Por ejemplo, la arginina (  g. 5.2), la citrulina y la ornitina (  g. 5.6)  son componentes del ciclo de la urea (cap. 15). La síntesis de urea, una molécula
+
+que se forma en el hígado de los vertebrados, es el principal mecanismo para
+
+eliminar los desechos nitrogenados. Cali  que los aminoácidos estándar según si sus estructuras son apolares, polares,  ácidas o básicas. PREGUNTA 5.1 C C CH 2 O H C C CH 2 CH 2 CH 2 CH 2 NH + 3 O H C C CH 2 CH 2 O O H C (a)(b)(c)(d) C C CH 2 SH O H H 3 N + H 3 N + H 3 N + H 3 N + O Œ O Œ O Œ O Œ O Œ CONCEPTO CL AVE Los aminoácidos se clasi  can según su  capacidad para interactuar con el agua.  Utilizando este criterio pueden distin guirse cuatro clases: apolares, polares,
+
+ácidos y básicos. 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 4 05 Chapter 05_McKee_5R.indd   114 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+5.1 Aminoácidos    115 Aminoácidos modiﬁ  cados en las proteínas Muchas proteínas contienen derivados de aminoácidos que se forman tras la síntesis  de la cadena polipeptídica. Entre estos aminoácidos modi  cados se encuentra el ácido   -carboxiglutámico (  g. 5.7), un residuo de aminoácido que se une al calcio que  se encuentra en la protrombina, una proteína utilizada en el proceso de coagulación
+
+de la sangre. La 4-hidroxiprolina y la 5-hidroxilisina son componentes estructurales
+
+importantes del colágeno, la proteína más abundante del tejido conjuntivo. Suele uti lizarse la fosforilación de los aminoácidos que contienen grupos hidroxilo, como la
+
+serina, la treonina y la tirosina, para regular la actividad de las proteínas. Por ejemplo,
+
+la síntesis del glucógeno está muy restringida cuando la enzima glucógeno sintetasa
+
+está fosforilada. En el capítulo 19 se consideran otros dos aminoácidos modi  cados,  la selenocisteína y la pirolisina. Estereoisómeros de los aminoácidos Debido a que los carbonos    de 19 de los 20 aminoácidos estándar están unidos a cuatro grupos diferentes (p. ej., a un hidrógeno, a un grupo carboxilo, a un grupo amino
+
+y a un grupo R), se denominan  carbonos asimétricos  o  quirales .   La glicina es  FIGURA 5.5 Algunos derivados de aminoácidos CO  O CH CH 2 CH 2 CH 2 CH H 3 N + CH 2 CH 2 CH 2 NH C CO  NH 2 O O + NH 3 CitrulinaOrnitina H 3 N + FIGURA 5.6 Citrulina y ornitina 5-hidroxilisina CH NH CH 2 CH 2 CH CH 2 C O OH + NH 3 CH NH CH 2 O P O  o -fosfoserina C O O  O  OC O CH C O  O CH NH CH 2 C O  - carboxiglutamato CH 2 CH 2 CH N OH C O 4-hidroxiprolina H FIGURA 5.7 Algunos residuos de aminoácidos modi  cados que se encuentran en los polipéptidos GA BA CH 2 CH 2 CH 2 CO  H 3 N + O HO N CH 2 CH 2 + NH 3 Serotonina H Tiroxina O HO II II CH 2 CH CO  + NH 3 O Ácido indolacético N H CH 2 COH O N H O H 3 C CH 2 CH 2 NH C H 3 C Melatonina O 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 5 05 Chapter 05_McKee_5R.indd   115 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+116   CAPÍTULO5    Aminoácidos, péptidos y proteínas una molécula simétrica puesto que su carbono    está  unido a dos hidrógenos. Las moléculas con carbonos  quirales pueden existir como  estereoisómeros ,   moléculas que sólo se diferencian en la disposición es pacial de sus átomos. En la   gura 5.8 se muestran las  representaciones tridimensionales de los estereoisó meros del aminoácido alanina. Obsérvese en la   gura  que los átomos de los dos isómeros están unidos en el
+
+mismo patrón excepto por la posición del grupo amo nio y del átomo de hidrógeno. Estos dos isómeros son  imágenes especulares de sí mismos. Moléculas así, denominadas  enantiómeros ,   no  pueden superponerse una sobre otra. Las propiedades físicas de los enantiómeros son
+
+idénticas, excepto que desvían la luz polarizada en un plano en direcciones opuestas.
+
+(La luz polarizada en un plano, se produce haciendo pasar la luz sin polarizar a través
+
+de un   ltro especial, las ondas luminosas sólo vibran en un plano.) Las moléculas que  poseen esta propiedad se denominan  isómeros ópticos . El gliceraldehído es el compuesto de referencia para los isómeros ópticos (  g.  5.9). Un isómero del gliceraldehído desvía el haz de luz en el sentido de las ma necillas del reloj y se denomina dextrógiro (se distingue por el signo   ). El otro  isómero del gliceraldehído, denominado levógiro (que se distingue por el signo   ),  desvía el haz en la dirección opuesta en el mismo grado. A los isómeros ópticos se
+
+les suele denominar  o  (p. ej., -glucosa, -alanina) para indicar la similitud de la
+
+disposición de los átomos alrededor de un carbono asimétrico de una molécula con
+
+la de los átomos alrededor del carbono asimétrico de cualquiera de los isómeros del
+
+gliceraldehído. Debido a que muchas biomoléculas tienen más de un carbono quiral, las letras  y   sólo se re  eren a las relaciones estructurales de una molécula con cualquiera de los  isómeros del gliceraldehído, no con la dirección en la que desvían la luz polarizada
+
+en un plano. La mayoría de las moléculas asimétricas que se encuentran en los seres
+
+vivos se presentan en una sola forma estereoisomérica,  o  bien. Por ejemplo, con
+
+pocas excepciones, en las proteínas sólo hay aminoácidos . La quiralidad ha tenido un efecto importante sobre las propiedades estructurales  y funcionales de las biomoléculas. Por ejemplo, las hélices    que giran a la derecha  que se observan en las proteínas son consecuencia de la presencia de aminoácidos .
+
+Los polipéptidos que se sintetizan en el laboratorio con una mezcla de aminoácidos 
+
+y  no forman hélices.Además, como las enzimas son moléculas quirales, la mayoría
+
+se une a moléculas de sustrato en una sola forma enantiómera o enantiomérica. Las
+
+proteasas, enzimas que degradan proteínas al hidrolizar los enlaces peptídicos, no
+
+pueden degradar polipéptidos arti  ciales formados por aminoácidos . Determinadas especies bacterianas poseen capas externas formadas por polímeros de
+
+aminoácidos . Las células del sistema inmunitario, cuya tarea es atacar y destruir a
+
+las células externas, no pueden destruir estas bacterias. Sugiera una razón para este
+
+fenómeno. PREGUNTA 5.2 Titulación de los aminoácidos Debido a que los aminoácidos contienen grupos ionizables (cuadro 5.2), la forma
+
+iónica predominante de estas moléculas en solución depende del pH. La titulación
+
+de un aminoácido ilustra el efecto del pH sobre su estructura (  g. 5.10a). La titulación también es una herramienta útil para determinar la reactividad de las cadenas
+
+laterales de los aminoácidos. Considérese la alanina, un aminoácido sencillo con dos
+
+grupos titulables. Durante la titulación con una base fuerte como el NaOH, la alanina
+
+pierde dos protones de forma escalonada. En una solución muy ácida (p. ej., a pH 0),
+
+casi todas las moléculas de alanina se encuentran en la forma en la que el grupo  CONCEPTOS CL AVE • Las moléculas con un átomo de  carbono asimétrico o quiral di  eren  sólo en la disposición espacial de los  átomos unidos al carbono. • Las formas especulares (imágenes en  el espejo) de una molécula se deno minan enantiómeros. • En los seres vivos la mayoría de las  moléculas asimétricas posee sólo
+
+una forma estereoisomérica. FIGURA 5.8 Dos enantiómeros La -alanina y la  -alanina son imágenes
+
+(Nitrógeno    esfera azul  grande; hidrógeno     esfera gris pequeña;
+
+carbono    esfera negra;  oxígeno    esfera roja.) FIGURA 5.9 - y -Gliceraldehído Estas moléculas son imágenes especulares una de otra. O C C H H CH 2 OH OH O C C H H CH 2 OH HO D -Gliceraldehído L -Gliceraldehído L -Alanina D -Alanina 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 6 05 Chapter 05_McKee_5R.indd   116 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+5.1 Aminoácidos    117 CUADRO 5.2   Valores de p K a  de los grupos ionizables de los aminoácidos Aminoácidop K 1 (—COOH)p K 2 (—NH  3 )p K R Glicina2.349.60 Alanina2.349.69 Valina2.329.62 Leucina2.369.60 Isoleucina2.369.60 Serina2.219.15 Treonina2.6310.43 Metionina2.289.21 Fenilalanina1.839.13 Triptófano2.839.39 Asparagina2.028.80 Glutamina2.179.13 Prolina1.9910.60 Cisteína1.7110.788.33 Histidina1.829.176.60 Ácido aspártico2.099.823.86 Ácido glutámico2.199.674.25 Tirosina2.209.1110.07 Lisina2.188.9510.79 Arginina2.179.0412.48 FIGURA 5.10 Titulación de dos aminoácidos (a) Alanina y (b) ácido glutámico. Las formas ionizadas del ácido glutámico se ilustran en la página 118. 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 7 05 Chapter 05_McKee_5R.indd   117 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+118   CAPÍTULO5    Aminoácidos, péptidos y proteínas carboxilo no está cargado. En estas circunstancias la carga neta de la molécula es   1, debido a que el grupo amonio está protonado. Si se reduce la concentración de  H  , el grupo carboxilo pierde su protón y se transforma en un grupo carboxilato con  carga negativa. (En un ácido poliprótico, los primeros protones que se pierden son los  del grupo con el p K a  menor.) Una vez que el grupo carboxilo ha perdido su protón,  la alanina no tiene carga neta y es eléctricamente neutra. El pH al que se produce  esto se denomina  punto isoeléctrico  (pI). El punto isoeléctrico de la alanina puede  calcularse de la siguiente manera: pI   p K 1     p K 2 2 Los valores de p K 1  y de p K 2  de la alanina son, respectivamente, 2.34 y 9.9 (cuadro  5.2). El valor de pI de la alanina es por lo tanto pI    6.02 2.34    9.69 2 Al continuar la titulación, el grupo amonio pierde su protón, dejando el grupo amino  sin carga. Entonces la molécula tiene una carga neta negativa debida al grupo carboxilo. Los aminoácidos con cadenas laterales ionizables tienen curvas de titulación más  complejas. Por ejemplo, el ácido glutámico tiene un grupo carboxilo en la cadena  lateral (  g. 5.10b).A pH bajo, el ácido glutámico tiene una carga neta de   1. Al  añadir la base, el grupo   -carboxilo pierde un protón para transformarse en un grupo  carboxilato. El glutamato ahora no tiene carga neta. Conforme se añade más base, el segundo grupo carboxilo pierde un protón y la molécula tiene una carga de   1. La adición de más base hace que el ion amonio pierda  su protón. En este punto, el glutamato tiene una carga neta de   2. El valor de pI del  glutamato es el del pH que se encuentra entre los valores de p K a  de los dos grupos  carboxilo (p.ej., los valores a ambos lados de la forma zwitterión): pI    3.22 2.19    4.25 2 Los problemas 5.1 a 5.3 son ejemplos de titulación. Cuando los aminoácidos se incorporan en polipéptidos, los grupos   -amino y   -carboxilo pierden sus cargas. En consecuencia, excepto los residuos de los grupos   -amino y   -carboxilo (los aminoácidos que se encuentran al principio y al   nal, respectivamente, de una cadena polipeptídica), todos los grupos ionizables de  las proteínas son los grupos de las cadenas laterales de siete aminoácidos: histidina,  lisina, arginina, aspartato, glutamato, cisteína y tirosina. Es importante resaltar que  los valores de p K a  de estos grupos di  eren de los correspondientes a aminoácidos  libres. Los valores de p K a  de grupos R individuales son afectados por sus posiciones  dentro de los microambientes proteínicos. Por ejemplo, cuando los grupos R de dos  residuos de aspartato están en estrecha cercanía, el p K a  de uno de los grupos carboxilato se eleva. La importancia de este fenómeno se hará evidente cuando se expongan  los mecanismos catalíticos de las enzimas (sección 6.4). Titulación del ácido glutámico Carga neta 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 8 05 Chapter 05_McKee_5R.indd   118 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+5.1 Aminoácidos    119 PROBLEMA 5.1 Considere el siguiente aminoácido y sus valores de p K a : p K aI     2.18, p K a2     8.95, p K aR     10.79 a.  Dibuje la estructura del aminoácido al cambiar el pH de la disolución de muy  ácido a muy básico. Solución (a) Los hidrógenos ionizables se pierden en el orden de la acidez, ionizándose primero los más ácidos. b. ¿Qué forma del aminoácido se observa en el punto isoeléctrico? Solución (b) La forma presente en el punto isoeléctrico es la eléctricamente neutra: c. Calcule el punto isoeléctrico. Solución (c) El punto isoeléctrico es el promedio de los dos p K a  que encierran el zwitterión:   9.87 8.95    10.79 2 p I    p K 2     p K R 2   CONCEPTOS CL AVE • La titulación es útil para determinar  el potencial de ionización relativo de  grupos ácidos y de grupos básicos en
+
+un aminoácido o péptido. • El pH en el que un aminoácido no  posee carga neta es su punto isoeléc trico. H 3 NCH 2 CH 2 CH 2 CH 2 CH + NH 3 C O O Œ + H 3 NCH 2 CH 2 CH 2 CH 2 CH + NH 3 C O OH + + OH Œ OH Œ OH Œ H 3 NCH 2 CH 2 CH 2 CH 2 CH + NH 3 C O O Œ + H 2 NCH 2 CH 2 CH 2 CH 2 CH NH 2 C O O Œ H 3 NCH 2 CH 2 CH 2 CH 2 CH NH 2 C O O Œ H 3 NCH 2 CH 2 CH 2 CH 2 CH NH 2 C O O Œ + 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 1 9 05 Chapter 05_McKee_5R.indd   119 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+120   CAPÍTULO5    Aminoácidos, péptidos y proteínas PROBLEMA 5.2 a. Represente la  curva  de titulación del aminoácido lisina. Solución (a) Aparecen mesetas a los p K a  y se centran alrededor de 0.5 equivalentes (Eq), 1.5  Eq y 2.5 Eq de base. Existe un aumento brusco a 1 Eq, a 2 Eq y a 3 Eq. El punto  isoeléctrico está en el punto medio del aumento brusco entre el p K a1  y el p K aR .  b. ¿En qué dirección se mueve el aminoácido cuando se coloca en un campo  eléctrico a los valores de pH siguientes: 1, 3, 5, 7, 9, 12?  Opción 1:  no se  mueve.  Opción 2:  hacia el  cátodo  (electrodo negativo).  Opción 3:  hacia el  ánodo  (electrodo positivo). Solución (b) En valores de pH menores del p l  (en este caso, 9.87), el aminoácido tiene carga  positiva y se desplaza al cátodo. Por lo tanto, el aminoácido de este problema
+
+se desplaza al cátodo a valores de pH de 1, 3, 5, 7 y 9. El aminoácido tendrá
+
+carga negativa en un pH de 12. En esta condición, el aminoácido se desplazará
+
+al ánodo.  PROBLEMA 5.3 Considere el siguiente dipéptido: a. ¿Cuál es su punto isoeléctrico? Solución (a) El punto isoeléctrico es el promedio de los valores de p K a  del grupo amino de la  glicina y el grupo carboxilo de la fenilalanina (obtenidos del cuadro 5.2). p I     (9.60    1.83)/2    5.72 b. ¿En qué dirección se desplazará el dipéptido a pH de 1, 3, 5, 7, 9 y 12? Solución (b) En valores de pH inferiores al del p I , el dipéptido se moverá hacia el cátodo (o  sea, valores de 1, 3 y 5). En un pH superior al p I , el dipéptido se desplazará al  ánodo. Estos valores son 7, 9 y 12.  H 3 NCH 2 + CN OH CH CH 2 C O O Œ Calcule el punto isoeléctrico del siguiente tripéptido: Asumir que los valores de p K a  indicados para los aminoácidos en el cuadro 5.2 son  aplicables a este problema. PREGUNTA 5.3 H 3 NCH + CNH O CH CH 2 C O NH CH SH CH C O O Œ CH 2 N H H 3 C CH 3 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 2 0 05 Chapter 05_McKee_5R.indd   120 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+5.1 Aminoácidos    121 Reacciones de los aminoácidos Los grupos funcionales de las moléculas orgánicas determinan las reacciones que  pueden experimentar. Los aminoácidos con sus grupos carboxilo, grupos amino y
+
+varios grupos R pueden experimentar numerosas reacciones químicas. Sin embargo,
+
+la formación de los enlaces peptídico y de puente disulfuro son de especial interés
+
+debido a su efecto sobre la estructura proteínica. La formación de bases de Schiff es
+
+otra reacción importante. FORMACIÓN DEL ENLACE PEPTÍDICO  Los polipéptidos son polímeros lineales formados por aminoácidos unidos por enlaces peptídicos. Los  enlaces peptídicos  (  g.  5.11) son enlaces amida que se forman cuando el par de electrones sin compartir del
+
+átomo de nitrógeno   -amino de un aminoácido ataca al carbono   -carboxilo de otro  en una reacción de sustitución de acilo nucleó  la. En seguida se muestra una reacción  general de sustitución de acilo: Los aminoácidos unidos, en un polipéptido, se denominan  residuos de aminoácidos   dado que la formación del enlace peptídico es una reacción de deshidratación (p. ej.,  se elimina una molécula de agua). O X RC + Y O Y RC + X Œ Œ FIGURA 5.11 Formación de un dipéptido (a) Se forma un enlace peptídico cuando el grupo    carboxilo de un aminoácido reacciona con el grupo amino
+
+una molécula de agua. O N C  O Œ + O C  Œ O N + O O Œ + O (a) (b) + N C  –C          N O N 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 2 1 05 Chapter 05_McKee_5R.indd   121 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+122   CAPÍTULO5    Aminoácidos, péptidos y proteínas Cuando dos aminoácidos se unen, el producto se llama dipéptido. Por ejemplo, la  glicina y la serina pueden formar los dipéptidos glicilserina y serilglicina.Al añadirse  los aminoácidos y alargarse la cadena, el pre  jo re  eja el número de residuos: un  tripéptido contiene tres residuos de aminoácidos, un tetrapéptido cuatro, y así suce sivamente. Por convención, el residuo de aminoácido con el grupo amino libre se
+
+denomina residuo  N-terminal  y se escribe a la izquierda. El grupo carboxilo libre   en el residuo  C-terminal  aparece a la derecha. Los péptidos se nombran utilizando  su secuencia de aminoácidos, empezando por su residuo N-terminal. Por ejemplo, H 3 N +   —Tyr—Ala—Cys—Gly—COO 	 es un tetrapéptido denominado tirosilalanilcisteinilglicina.  Los polipéptidos grandes tienen estructuras tridimensionales bien de  nidas. Esta  estructura, que se denomina conformación nativa de la molécula, es una consecuencia
+
+directa de su  secuencia de aminoácidos  (el orden en el que éstos están unidos). Dado  que todos los enlaces que conectan a los residuos de aminoácidos consisten en enlaces
+
+sencillos, puede esperarse que cada polipéptido experimente cambios de conforma ción constantes producidos por la rotación alrededor de los enlaces sencillos. Sin
+
+embargo, la mayoría de los polipéptidos se pliega de manera espontánea en una forma
+
+única biológicamente activa.A principios de la década de 1950, Linus Pauling (1901 1994, premio Nobel de Química en 1954) y sus colegas propusieron una explicación.
+
+Con estudios de difracción de rayos X, determinaron que el enlace peptídico (1.33Å)
+
+es rígido y plano (  g. 5.12). Una vez que descubrió que los enlaces C—N que se unen  cada dos aminoácidos son más cortos que otros tipos de enlaces C—N (1.45Å),
+
+Pauling dedujo que los enlaces peptídicos tienen un carácter parcial de doble enlace.  FIGURA 5.12 Enlace peptídico (a) Formas de resonancia del enlace  peptídico. (b) Dimensiones de un
+
+dipéptido. Los grados de libertad con formacionales de una cadena polipep tídica están limitados a giros alrededor
+
+de los enlaces C  —C y C  —N, por  ser rígidos los enlaces peptídicos. Los
+
+respectivamente como    y   . C CN H O C C C + N H Œ O C 12 (a) O O Plano amida Carbono   Gr upo lateral Plano amida N C N C H H R H (b) C Carbono   0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 2 2 05 Chapter 05_McKee_5R.indd   122 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
+5.2 Péptidos    123 (Esto indica que los enlaces peptídicos son híbridos de resonancia.) Debido  a la rigidez del enlace peptídico, por lo menos un tercio de los enlaces del  esqueleto polipeptídico no puede girar con libertad. En consecuencia, existen  límites en el número de posibilidades conformacionales. OXIDACIÓN DE LA CISTEÍNA  El grupo sulfhidrilo de la cisteína es muy  reactivo. La reacción más común de este grupo es una oxidación reversible  que forma un disulfuro. La oxidación de dos moléculas de cisteína forma  cistina, una molécula que contiene un enlace disulfuro ( g. 5.13). Cuando dos residuos de cisteína forman uno de estos enlaces, éste se denomina  puente disulfuro .   Este enlace puede producirse en una cadena individual  para formar un anillo o entre dos cadenas independientes para formar un  puente intermolecular. Los puentes disulfuro ayudan a estabilizar muchos  polipéptidos y proteínas. FORMACIÓN DE BASES DE SCHIFF  Moléculas como los aminoácidos que  poseen grupos amino primarios pueden reaccionar de forma reversible con  grupos carbonilo. Las moléculas de imina producidas por esta reacción a menudo reciben el nombre de  bases de Schiff . En una reacción de adición nucleó  la, un nitrógeno de un grupo amino ataca al carbono electró  lo de un grupo carbonilo para formar un producto alcóxido. La transferencia de un protón del grupo amino  al oxígeno para formar una molécula de carbinolamina, seguida de la transferencia de  otro protón de un catalizador ácido, convierte al oxígeno en un buen grupo saliente  (OH 2  ). La eliminación subsiguiente de una molécula de agua, seguida de la pérdida  de un protón del nitrógeno produce imina. Los ejemplos más importantes de formación de bases de Schiff en bioquímica se presentan en el metabolismo de los aminoácidos. Las bases de Schiff, denominadas  aldiminas ,   que se forman por la reacción  reversible de un grupo amino con un grupo aldehído, son  intermediarios  (especies  formadas durante una reacción) en las reacciones de transaminación (pág. 466). 2H +  + 2e Œ Dos cisteínasCistina FIGURA 5.13 Oxidación de dos moléculas  de cisteína para formar cistina El enlace disulfuro en un polipéptido  se denomina puente disulfuro. 5.2  PÉPTIDOS Aunque sus estructuras son menos complejas que las de las moléculas proteínicas  más grandes, los péptidos poseen actividades biológicas signi  cativas. Se consideran  ahora la estructura y la función de varios ejemplos interesantes, que se presentan en  el cuadro 5.3. El tripéptido glutatión (  -glutamil--cisteinilglicina) contiene un enlace   -amida  poco habitual. (Obsérvese que al enlace peptídico contribuye el grupo   -carboxilo  del residuo de ácido glutámico y no el grupo   -carboxilo.) AminoAlcóxido Carbinolamina C RN O O  H + R  R  R  H R  N H + C RN OH H 2 O R  R  CR  H R  H RN N  OH 2 Aldiminas (bases de Schiff) RN + H C R  R  C R R  R  C R  HH CONCEPTOS CL AVE • Los polipéptidos son polímeros  formados por aminoácidos unidos  por enlaces peptídicos. El orden de  los aminoácidos en el polipéptido se  denomina secuencia de aminoácidos. • Los puentes disulfuro, formados por  la oxidación de residuos de cisteína,  son un elemento estructural importante en los polipéptidos y en las  proteínas. • Las bases de Schiff son iminas que se  forman cuando grupos amino reaccionan de manera reversible con grupos  carbonilo. 0 5   C h a p t e r   0 5 _ M c K e e _ 5 R . i n d d       1 2 3 05 Chapter 05_McKee_5R.indd   123 0 4 / 1 2 / 1 3       1 3 : 5 9 04/12/13   13:59
+
